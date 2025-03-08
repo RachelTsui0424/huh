@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习计时器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>学习计时器</h1>
+        <div class="current-time">
+            <span id="current-time">--:--:--</span>
+        </div>
+        <div class="motto-container">
+            <p id="motto" class="motto"></p>
+        </div>
+        <div class="timer">
+            <div class="time-display">25:00</div>
+            <div class="time-presets">
+                <button class="time-preset-btn" data-minutes="20">20分钟</button>
+                <button class="time-preset-btn" data-minutes="30">30分钟</button>
+                <button class="time-preset-btn" data-minutes="40">40分钟</button>
+                <button class="time-preset-btn" data-minutes="50">50分钟</button>
+            </div>
+            <div class="controls">
+                <button id="start" class="btn">开始</button>
+                <button id="reset" class="btn">重置</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
